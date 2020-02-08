@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ShowImageFragment"
+    android:orientation="vertical"
+    android:gravity="center"
+
+    android:background="@color/cardview_light_background">
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:gravity="center"-->
+<!--        android:layout_marginBottom="20dp"-->
+<!--        android:layout_marginTop="20dp">-->
+
+<!--        <Button-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Whitelist"-->
+<!--            android:background="@color/colorBlue"-->
+<!--            android:id="@+id/btnWhite"-->
+<!--            android:layout_marginRight="10dp"/>-->
+
+<!--        <Button-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="BlackList"-->
+<!--            android:background="@color/design_default_color_error"-->
+<!--            android:id="@+id/btnBlack"/>-->
+
+
+<!--    </LinearLayout>-->
+
+    <ImageView
+        android:id="@+id/ivShow"
+        android:layout_width="300sp"
+        android:layout_height="400sp"
+        android:src="@drawable/app_logo"
+        android:elevation="30dp"
+
+        >
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/tvImageName"/>
+
+
+
+</LinearLayout>
